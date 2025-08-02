@@ -7,6 +7,7 @@ vim.pack.add({
 	{ src = 'https://github.com/nvim-telescope/telescope.nvim' },
 	{ src = 'https://github.com/rafamadriz/friendly-snippets' },
 	{ src = 'https://github.com/Saghen/blink.cmp' },
+	{ src = 'https://github.com/nvim-tree/nvim-tree.lua' },
 })
 
 -- Plugins setup
