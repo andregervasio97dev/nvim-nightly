@@ -2,5 +2,7 @@ require("oil").setup({
 	columns = {
 		"icon",
 	},
-	show_hidden = true,
+	view_options = {
+		show_hidden = true,
+	},
 })
