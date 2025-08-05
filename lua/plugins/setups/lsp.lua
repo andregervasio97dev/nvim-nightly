@@ -6,30 +6,22 @@ require("mason-lspconfig").setup({
 		"gopls",
 		"jsonls",
 		"rust_analyzer",
+		"somesass_ls",
 		"cssls",
 		"html",
-		"jsonls",
 		"svelte",
 	}
 })
 
-require("mason-lspconfig").setup {
-	function(server_name)
-		require("lspconfig")[server_name].setup {}
-	end,
-	["lua_ls"] = function()
-		local lspconfig = require("lspconfig")
-		lspconfig.lua_ls.setup {
-			settings = {
-				Lua = {
-					diagnostics = {
-						globals = { "vim" }
-					}
-				}
-			}
+vim.lsp.config("lua_ls", {
+	settings = {
+		Lua = {
+			diagnostics = {
+				globals = { "vim" }
+			},
 		}
-	end,
-}
+	}
+})
 
 vim.api.nvim_create_autocmd("LspAttach", {
 	group = vim.api.nvim_create_augroup("lsp", { clear = true }),
