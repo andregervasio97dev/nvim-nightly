@@ -10,6 +10,7 @@ require("mason-lspconfig").setup({
 		"cssls",
 		"html",
 		"svelte",
+		"pylsp",
 	}
 })
 
