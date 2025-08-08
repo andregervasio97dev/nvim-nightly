@@ -7,7 +7,7 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.scrolloff = 5
 vim.opt.signcolumn = "yes"
-vim.opt.winborder = "rounded"
+vim.opt.winborder = "double"
 vim.api.nvim_create_autocmd("Filetype", {
 	pattern = { "help", "man" },
 	command = "wincmd L",

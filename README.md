@@ -6,14 +6,14 @@ It is highly recommended to manage neovim versions using [bob](https://github.co
 
 ## What is included
 
-nvim-treesitter
-oil.nvim
-nvim-lspconfig
-mason.nvim 
-mason-lspconfig.nvim 
-plenary.nvim 
-telescope.nvim 
-friendly-snippets 
-blink.cmp 
-nvim-tree.lua 
-render-markdown.nvim 
+- nvim-treesitter
+- oil.nvim
+- nvim-lspconfig
+- mason.nvim 
+- mason-lspconfig.nvim 
+- plenary.nvim 
+- telescope.nvim 
+- friendly-snippets 
+- blink.cmp 
+- nvim-tree.lua 
+- render-markdown.nvim 
