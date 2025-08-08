@@ -21,8 +21,7 @@ require('blink.cmp').setup({
 			auto_show = false,
 		},
 		ghost_text = {
-			enabled = true,
-			show_without_selection = true,
+			enabled = false,
 		},
 	},
 })

@@ -12,6 +12,7 @@ require("mason-lspconfig").setup({
 		"svelte",
 		"pylsp",
 		"markdown-oxide",
+		"bashls",
 	}
 })
 

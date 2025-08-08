@@ -4,4 +4,9 @@ require('render-markdown').setup({
 			enabled = true,
 		},
 	},
+	heading = {
+		sign = false,
+		position = 'inline',
+		width = 'full',
+	},
 })
