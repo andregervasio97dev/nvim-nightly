@@ -9,6 +9,7 @@ vim.pack.add({
 	{ src = 'https://github.com/rafamadriz/friendly-snippets' },
 	{ src = 'https://github.com/Saghen/blink.cmp' },
 	{ src = 'https://github.com/nvim-tree/nvim-tree.lua' },
+	{ src = 'https://github.com/MeanderingProgrammer/render-markdown.nvim' },
 })
 
 -- Plugins setup
